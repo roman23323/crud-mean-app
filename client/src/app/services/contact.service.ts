@@ -12,7 +12,7 @@ export interface Contact {
   providedIn: 'root'
 })
 export class ContactService {
-  private apiUrl = '/api';
+  private apiUrl = '/api/contacts';
 
   constructor(private http: HttpClient) { }
 
