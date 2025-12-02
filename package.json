@@ -1,7 +1,7 @@
 {
   "name": "my-fullstack",
   "scripts": {
-    "build:client": "cd client && npm install && ng build --configuration production",
+    "build:client": "cd client && npm ci && npx ng build --configuration production",
     "build:server": "cd server && npm install",
     "build": "npm run build:client && npm run build:server",
     "start": "cd server && node bin/www"
