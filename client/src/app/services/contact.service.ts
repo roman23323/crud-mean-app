@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+require('dotenv').config();
 
 export interface Contact {
   _id?: string;
@@ -12,7 +13,7 @@ export interface Contact {
   providedIn: 'root'
 })
 export class ContactService {
-  private apiUrl = 'http://localhost:3000';
+  private apiUrl = process.env['MONGO_API_URL'];
 
   constructor(private http: HttpClient) { }
 
