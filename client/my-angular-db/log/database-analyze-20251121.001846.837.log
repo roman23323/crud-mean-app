@@ -1,0 +1,11 @@
+[2025-11-21 00:18:46] This is codeql database analyze my-angular-db \ javascript.qlsuites/javascript-security-and-quality.qls \ --format=sarif-latest \ --output=codeql-report.sarif
+[2025-11-21 00:18:46] Log file was started late.
+[2025-11-21 00:18:46] [PROGRESS] database analyze> Running queries.
+[2025-11-21 00:18:46] Running plumbing command: codeql database run-queries --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\Users\User\Desktop\ipp\5\my-dream-app1\qlconfig.yml --dynamic-join-order-mode=none --no-rerun -- C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db \ javascript.qlsuites/javascript-security-and-quality.qls \ \
+[2025-11-21 00:18:46] Calling plumbing command: codeql resolve ram --dataset=C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript --format=json
+[2025-11-21 00:18:46] [PROGRESS] resolve ram> Stringpool size measured as 2146714
+[2025-11-21 00:18:47] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1391M"
+                      ]
+[2025-11-21 00:18:47] Spawning plumbing command: execute queries -J-Xmx1391M --verbosity=progress --logdir=C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\log --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\Users\User\Desktop\ipp\5\my-dream-app1\qlconfig.yml --dynamic-join-order-mode=none --no-rerun --output=C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\results -- C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript \ javascript.qlsuites/javascript-security-and-quality.qls \ \

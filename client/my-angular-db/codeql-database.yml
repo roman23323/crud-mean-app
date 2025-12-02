@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: C:\Users\User\Desktop\ipp\5\my-dream-app1
+baselineLinesOfCode: 187
+unicodeNewlines: true
+columnKind: utf16
+primaryLanguage: javascript
+creationMetadata:
+  sha: 44fba18a232cb8fd79fc81578e8adff0d7baaa2a
+  cliVersion: 2.23.5
+  creationTime: 2025-11-20T21:13:10.897481500Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

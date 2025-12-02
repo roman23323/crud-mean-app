@@ -1,0 +1,23 @@
+<h2>Телефонная книжка</h2>
+<h2>Добавить нового пользователя</h2>
+<div>
+  <input [(ngModel)]="newName" placeholder="Имя" />
+  <input [(ngModel)]="newPhone" placeholder="Телефон" />
+  <button (click)="addContact()">Добавить</button>
+</div>
+
+<hr />
+
+<h2>Список пользователей из MongoDB</h2>
+<div *ngIf="loading">Загрузка...</div>
+
+<ul *ngIf="!loading && contacts.length > 0">
+  <li *ngFor="let contact of contacts">
+    <strong>{{ contact.name }}</strong> ({{ contact.phone }})
+    <button (click)="delete(contact.name)">Удалить</button>
+  </li>
+</ul>
+
+<div *ngIf="!loading && contacts.length === 0">
+  Пользователей пока нет
+</div>

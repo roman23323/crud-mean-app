@@ -1,0 +1,59 @@
+[2025-11-21 00:16:16] This is codeql database finalize my-angular-db
+[2025-11-21 00:16:16] Log file was started late.
+[2025-11-21 00:16:16] [PROGRESS] database finalize> Running TRAP import for CodeQL database at C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db...
+[2025-11-21 00:16:17] Running plumbing command: codeql dataset import --dbscheme=C:\Users\User\Desktop\tivpo\4\codeql\javascript\semmlecode.javascript.dbscheme -- C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\trap\javascript
+[2025-11-21 00:16:17] Clearing disk cache since the version file C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript\default\cache\version does not exist
+[2025-11-21 00:16:17] Tuple pool not found. Clearing relations with cached strings
+[2025-11-21 00:16:17] Trimming disk cache at C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript\default\cache in mode clear.
+[2025-11-21 00:16:17] Sequence stamp origin is -5978966517150541830
+[2025-11-21 00:16:17] Pausing evaluation to hard-clear memory at sequence stamp o+0
+[2025-11-21 00:16:17] Unpausing evaluation
+[2025-11-21 00:16:17] Pausing evaluation to quickly trim disk at sequence stamp o+1
+[2025-11-21 00:16:17] Unpausing evaluation
+[2025-11-21 00:16:17] Pausing evaluation to zealously trim disk at sequence stamp o+2
+[2025-11-21 00:16:17] Unpausing evaluation
+[2025-11-21 00:16:17] Trimming completed (21ms): Purged everything.
+[2025-11-21 00:16:17] Scanning for files in C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\trap\javascript
+[2025-11-21 00:16:17] Found 1 TRAP files (82.00 B)
+[2025-11-21 00:16:17] [PROGRESS] dataset import> Importing TRAP files
+[2025-11-21 00:16:18] Importing metadata.trap.gz (1 of 1)
+[2025-11-21 00:16:18] [PROGRESS] dataset import> Merging relations
+[2025-11-21 00:16:18] Merging 1 fragment for 'sourceLocationPrefix'.
+[2025-11-21 00:16:18] Merged 18 bytes for 'sourceLocationPrefix'.
+[2025-11-21 00:16:18] Saving string and id pools to disk.
+[2025-11-21 00:16:19] Finished importing TRAP files.
+[2025-11-21 00:16:19] Read 66.00 B of uncompressed TRAP data.
+[2025-11-21 00:16:19] Uncompressed relation data size: 4.00 B
+[2025-11-21 00:16:19] Relation data size: 18.00 B (merge rate: 187.00 B/s)
+[2025-11-21 00:16:19] String pool size: 2.05 MiB
+[2025-11-21 00:16:19] ID pool size: 1.02 MiB
+[2025-11-21 00:16:19] [PROGRESS] dataset import> Finished writing database (relations: 18.00 B; string pool: 2.05 MiB).
+[2025-11-21 00:16:19] Pausing evaluation to close the cache at sequence stamp o+5
+[2025-11-21 00:16:19] The disk cache is freshly trimmed; leave it be.
+[2025-11-21 00:16:19] Unpausing evaluation
+[2025-11-21 00:16:19] Plumbing command codeql dataset import completed.
+[2025-11-21 00:16:19] [PROGRESS] database finalize> TRAP import complete (2.7s).
+[2025-11-21 00:16:19] Running plumbing command: codeql database cleanup -- C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db
+[2025-11-21 00:16:19] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2025-11-21 00:16:20] [PROGRESS] database cleanup> TRAP files cleaned up (32ms).
+[2025-11-21 00:16:20] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2025-11-21 00:16:20] [PROGRESS] database cleanup> Scratch directory cleaned up (3ms).
+[2025-11-21 00:16:20] Running plumbing command: codeql dataset cleanup -- C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript
+[2025-11-21 00:16:20] [PROGRESS] dataset cleanup> Cleaning up dataset in C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript.
+[2025-11-21 00:16:20] Trimming disk cache at C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript\default\cache in mode trim.
+[2025-11-21 00:16:20] Sequence stamp origin is -5978966505748477830
+[2025-11-21 00:16:20] Pausing evaluation to quickly trim memory at sequence stamp o+0
+[2025-11-21 00:16:20] Unpausing evaluation
+[2025-11-21 00:16:20] Pausing evaluation to zealously trim disk at sequence stamp o+1
+[2025-11-21 00:16:20] Unpausing evaluation
+[2025-11-21 00:16:20] Trimming completed (7ms): Trimmed disposable data from cache.
+[2025-11-21 00:16:20] Pausing evaluation to close the cache at sequence stamp o+2
+[2025-11-21 00:16:20] The disk cache is freshly trimmed; leave it be.
+[2025-11-21 00:16:20] Unpausing evaluation
+[2025-11-21 00:16:20] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2025-11-21 00:16:20] [PROGRESS] dataset cleanup> Finalizing dataset in C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript
+[2025-11-21 00:16:20] [DETAILS] dataset cleanup> Finished deleting ID pool from C:\Users\User\Desktop\ipp\5\my-dream-app1\my-angular-db\db-javascript (7ms).
+[2025-11-21 00:16:20] Plumbing command codeql dataset cleanup completed.
+[2025-11-21 00:16:20] Plumbing command codeql database cleanup completed with status 0.
+[2025-11-21 00:16:20] [PROGRESS] database finalize> Finished zipping source archive (22.00 B).
+[2025-11-21 00:16:20] Terminating normally.
